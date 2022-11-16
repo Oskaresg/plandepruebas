@@ -1,0 +1,204 @@
+{
+  "id": "bc19fa46-60fe-48bd-8511-2f495998f305",
+  "version": "2.0",
+  "name": "Plan de pruebas",
+  "url": "https://campus.tdea.edu.co",
+  "tests": [{
+    "id": "55e5687e-9e65-4afa-99be-20dd7436538f",
+    "name": "Prueba 2",
+    "commands": [{
+      "id": "f7db7185-01b8-4ab1-a168-eeb806afa51b",
+      "comment": "",
+      "command": "open",
+      "target": "/cas/login?service=https%3A%2F%2Fcampus.tdea.edu.co%2Fextranet%2Fenter.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d1090eb-4434-49e2-bc3e-490323901f54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "787x560",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53990b6b-7324-4bce-a3b0-25924db370f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g-recaptcha",
+      "targets": [
+        ["css=.g-recaptcha", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f47b7df9-3d79-425b-8cec-985f7d365600",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-navigation-control",
+      "targets": [
+        ["css=.x-navigation-control", "css:finder"],
+        ["xpath=//div[@id='page-sidebar']/ul/li/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45bca3fe-367b-4880-ad63-cea937f1f293",
+      "comment": "",
+      "command": "click",
+      "target": "css=#COM053 .xn-text",
+      "targets": [
+        ["css=#COM053 .xn-text", "css:finder"],
+        ["xpath=//li[@id='COM053']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Académico')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c695d705-922f-4a58-a578-819c8b6376af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contenidos",
+      "targets": [
+        ["linkText=Contenidos", "linkText"],
+        ["css=#menu_COM053 > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//ul[@id='menu_COM053']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/extranet/?idMenu=COM008&idMenuPadre=COM053&intNivel=2')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "820c8328-2493-49a6-ae2b-6ba07b3c5da5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gestión",
+      "targets": [
+        ["linkText=Gestión", "linkText"],
+        ["css=#COM095 > a", "css:finder"],
+        ["xpath=//li[@id='COM095']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/extranet/?idMenu=COM095&intNivel=1&cperfil=E')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fadbb6db-ec74-4b56-b5ac-82aafea2aea5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=#COM001 > .selected", "css:finder"],
+        ["xpath=//li[@id='COM001']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/extranet/generarPantallaMenu.do?idMenu=COM001&intNivel=1&cperfil=E')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "277de148-7908-4a77-9314-35f8ab8cc76d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-navigation-horizontal",
+      "targets": [
+        ["css=.x-navigation-horizontal", "css:finder"],
+        ["xpath=//div[2]/ul", "xpath:position"],
+        ["xpath=//ul[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a0c3a4f-7514-4831-9713-5a5aafcb6cfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=strValorBuscado",
+      "targets": [
+        ["id=strValorBuscado", "id"],
+        ["name=strValorBuscado", "name"],
+        ["css=#strValorBuscado", "css:finder"],
+        ["xpath=//input[@id='strValorBuscado']", "xpath:attributes"],
+        ["xpath=//form[@id='busqueda']/a/input", "xpath:idRelative"],
+        ["xpath=//a/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac8331df-401f-4db8-89cb-97b603b15bf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-navigation-control",
+      "targets": [
+        ["css=.x-navigation-control", "css:finder"],
+        ["xpath=//div[@id='page-sidebar']/ul/li/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffee54c1-3a66-4d87-bcc8-a30027803bca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Académico",
+      "targets": [
+        ["linkText=Académico", "linkText"],
+        ["css=#COM053 > a", "css:finder"],
+        ["xpath=//li[@id='COM053']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/extranet/?idMenu=COM053&intNivel=1&cperfil=E')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5195521-9c54-4026-bd28-f1f7ef101536",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Calificaciones",
+      "targets": [
+        ["linkText=Calificaciones", "linkText"],
+        ["css=#menu_COM053 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//ul[@id='menu_COM053']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/extranet/consultarCalificaciones.do?idMenu=COM009&idMenuPadre=COM053&intNivel=2')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df5090ef-8043-40e4-b116-52e6a1d3d669",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Estudiante",
+      "targets": [
+        ["linkText=Estudiante", "linkText"],
+        ["css=.active:nth-child(4) > ul a", "css:finder"],
+        ["xpath=//ul[@id='menu_COM053']/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/extranet/consultarCalificaciones.do?idMenu=COM179&idMenuPadre=COM053&intNivel=3&cperfil=E')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[4]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13967002-5f25-4663-a938-851240fe664f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.table:nth-child(14) > tbody > tr > td",
+      "targets": [
+        ["css=.table:nth-child(14) > tbody > tr > td", "css:finder"],
+        ["xpath=//div[@id='main-container']/div/div/div[2]/form/div/table[5]/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70c58753-08d0-4329-bdb0-3d60c68deb73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5b9e4c68-4973-4e23-8529-f954c7b79c15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55e5687e-9e65-4afa-99be-20dd7436538f"]
+  }],
+  "urls": ["https://campus.tdea.edu.co/"],
+  "plugins": []
+}
